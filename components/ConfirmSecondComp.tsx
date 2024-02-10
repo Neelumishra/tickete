@@ -3,7 +3,7 @@ import { IoMdTrophy } from "react-icons/io";
 import { useState } from "react";
 import { Button } from "./ui/button";
 import { MdPriceChange } from "react-icons/md";
-export default function () {
+export default function ConfirmSecondComp() {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
   const images = [
     "https://media.istockphoto.com/id/840781672/photo/beautiful-nature-norway-aerial-photography.jpg?s=1024x1024&w=is&k=20&c=MWy8JI5jGfEdNjHX9Dq-HTQnQ4mC0UyjeoqD7du1BQY=",
